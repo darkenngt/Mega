@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MegaProcesos</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap/open-iconic-bootstrap.css" />
+    <link rel="stylesheet" href="css/toastr.min.css"/>
+    <link rel="stylesheet" href="css/simple-sidebar.css"/>
+    <link rel="stylesheet" href="css/mega.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/datatables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+
+    </script>
+    <script src="js/jquery-3.3.1.min.js" ></script>
+    <script src="js/bootstrap/popper.min.js" ></script>
+    <script src="js/bootstrap/bootstrap.min.js"  ></script>
+    <script src="js/toastr.min.js"></script>
+
+    <script type="text/javascript" src="js/pdfmake.min.js"></script>
+    <script type="text/javascript" src="js/vfs_fonts.js"></script>
+    <script type="text/javascript" src="js/datatables.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script src="js\jquery-clock-timepicker-master/jquery-clock-timepicker.js"></script>
+  </head>
+  <body data-spy="scroll" data-target="#menu" data-offset="50">
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0&appId=849830568771100"></script>
+    <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top row">
+      <a class="navbar-brand" href="#" id="logo">
+        <img  src="img/logo.svg" title="Megaprocesos" alt="Logo Megaprocesos">
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-sm-12 col-md-12 col-lg-8 col-xl-8" id="navbarNav">
+          <ul class="navbar-nav nav-pills">
+            <li class="nav-item active active-dark">
+              <a class="nav-link " id="tab1" href="#section1">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="tab2" href="#section2">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="tab3" href="#section3">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="tab4" href="#section4">Blog y noticias</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
+          <h6 id="pais" class="text-white"></h6>
+        </div>
+      </nav>
+      <div id="section1" class="mt-0 pt-0 tam">
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/gr_1.jpg" class="d-block w-100"  alt="..." style="width: 100%; height: 690px;">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img1.jpg" class="d-block w-100"  alt="..." style="width: 100%; height: 690px;">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img2.jpg" class="d-block w-100"  alt="..." style="width: 100%; height: 690px;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section2" class="container-fluid mt-5 pt-5 tam">
+        <div class="row">
+          <div class="card hovercard col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                    <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <a target="_blank" href="https://scripteden.com/">Script Eden</a>
+                    </div>
+                    <div class="desc">Passionate designer</div>
+                    <div class="desc">Curious developer</div>
+                    <div class="desc">Tech geek</div>
+                </div>
+                <div class="bottom">
+                    <a class="btn btn-card btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a class="btn btn-card btn-danger btn-sm" rel="publisher"
+                       href="https://plus.google.com/+ahmshahnuralam">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                    <a class="btn btn-card btn-primary btn-sm" rel="publisher"
+                       href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="btn btn-card btn-warning btn-sm" rel="publisher" href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-behance"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="card hovercard col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <div class="cardheader">
+
+                  </div>
+                  <div class="avatar">
+                      <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                  </div>
+                  <div class="info">
+                      <div class="title">
+                          <a target="_blank" href="https://scripteden.com/">Script Eden</a>
+                      </div>
+                      <div class="desc">Passionate designer</div>
+                      <div class="desc">Curious developer</div>
+                      <div class="desc">Tech geek</div>
+                  </div>
+                  <div class="bottom">
+                      <a class="btn btn-card btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
+                          <i class="fa fa-twitter"></i>
+                      </a>
+                      <a class="btn btn-card btn-danger btn-sm" rel="publisher"
+                         href="https://plus.google.com/+ahmshahnuralam">
+                          <i class="fa fa-google-plus"></i>
+                      </a>
+                      <a class="btn btn-card btn-primary btn-sm" rel="publisher"
+                         href="https://plus.google.com/shahnuralam">
+                          <i class="fa fa-facebook"></i>
+                      </a>
+                      <a class="btn btn-card btn-warning btn-sm" rel="publisher" href="https://plus.google.com/shahnuralam">
+                          <i class="fa fa-behance"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="card hovercard col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="cardheader">
+
+                    </div>
+                    <div class="avatar">
+                        <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                    </div>
+                    <div class="info">
+                        <div class="title">
+                            <a target="_blank" href="https://scripteden.com/">Script Eden</a>
+                        </div>
+                        <div class="desc">Passionate designer</div>
+                        <div class="desc">Curious developer</div>
+                        <div class="desc">Tech geek</div>
+                    </div>
+                    <div class="bottom">
+                        <a class="btn btn-card btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-card btn-danger btn-sm" rel="publisher"
+                           href="https://plus.google.com/+ahmshahnuralam">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a class="btn btn-card btn-primary btn-sm" rel="publisher"
+                           href="https://plus.google.com/shahnuralam">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="btn btn-card btn-warning btn-sm" rel="publisher" href="https://plus.google.com/shahnuralam">
+                            <i class="fa fa-behance"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="card hovercard col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                      <div class="cardheader">
+
+                      </div>
+                      <div class="avatar">
+                          <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                      </div>
+                      <div class="info">
+                          <div class="title">
+                              <a target="_blank" href="https://scripteden.com/">Script Eden</a>
+                          </div>
+                          <div class="desc">Passionate designer</div>
+                          <div class="desc">Curious developer</div>
+                          <div class="desc">Tech geek</div>
+                      </div>
+                      <div class="bottom">
+                          <a class="btn btn-card btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
+                              <i class="fa fa-twitter"></i>
+                          </a>
+                          <a class="btn btn-card btn-danger btn-sm" rel="publisher"
+                             href="https://plus.google.com/+ahmshahnuralam">
+                              <i class="fa fa-google-plus"></i>
+                          </a>
+                          <a class="btn btn-card btn-primary btn-sm" rel="publisher"
+                             href="https://plus.google.com/shahnuralam">
+                              <i class="fa fa-facebook"></i>
+                          </a>
+                          <a class="btn btn-card btn-warning btn-sm" rel="publisher" href="https://plus.google.com/shahnuralam">
+                              <i class="fa fa-behance"></i>
+                          </a>
+                      </div>
+                  </div>
+
+        </div>
+        <img src="img/img2.jpg" class="d-block w-100"  alt="..." style="width: 100%; height: 690px;">
+      <div id="section3" class="container-fluid mt-5 pt-5 tam">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab1" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Outsourcing</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" id="pills-profile-tab2" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Auditoría</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab3" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Impuestos</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent" >
+        <div class="tab-pane fade show active tab3" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab1">
+          <h3>Outsourcing:</h3>
+          <p class="text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <button type="button" class="btn btn-info" name="button">Solicitar Propuesta</button>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab2">
+          <h3>Auditoría:</h3>
+          <p>
+            hola Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <button type="button" class="btn btn-info" name="button">Solicitar Propuesta</button>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab3">
+          <h3>Impuestos:</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <button type="button" class="btn btn-info" name="button">Solicitar Propuesta</button>
+        </div>
+        </div>
+      </div>
+      <div id="section4" class=" row container-fluid mt-5 pt-5 tam">
+        <iframe class="col-sm-6 col-md-6 col-lg-6 col-xl-6"
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmegaprocesos&tabs=timeline&width=400&height=625&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="625" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
+        </iframe>
+        <div id="carouselExampleCaptions" class="carousel slide col-sm-6 col-md-6 col-lg-6 col-xl-6" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/noti1.jpg" class="d-block w-100" class="img-fluid" style="width: 100%; height: 670px;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Primera Noticia</h5>
+                <p>Aqui vera una pequeña descripccion de noticia 1.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/noti2.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 670px;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Segunda noticia</h5>
+                <p>Aqui vera una pequeña descripccion de noticia 2.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/noti3.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 670px;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Tercera Noticia</h5>
+                <p>Aqui vera una pequeña descripccion de noticia 3.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer -->
+<footer class="page-footer font-small bg-dark pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <hr>
+
+  <!-- Call to action -->
+  <ul class="list-unstyled list-inline text-center py-2">
+    <li class="list-inline-item">
+      <h5 class="mb-1">Register for free</h5>
+    </li>
+    <li class="list-inline-item">
+      <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+    </li>
+  </ul>
+  <!-- Call to action -->
+
+  <hr>
+
+  <!-- Social buttons -->
+  <ul class="list-unstyled list-inline text-center">
+    <li class="list-inline-item">
+      <a class="btn-floating btn-fb mx-1">
+        <i class="fab fa-facebook-f"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-tw mx-1">
+        <i class="fab fa-twitter"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-gplus mx-1">
+        <i class="fab fa-google-plus-g"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-li mx-1">
+        <i class="fab fa-linkedin-in"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-dribbble mx-1">
+        <i class="fab fa-dribbble"> </i>
+      </a>
+    </li>
+  </ul>
+  <!-- Social buttons -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+  </body>
+  <script>
+    $('#myTab a').on('click', function (e) {
+      e.preventDefault()
+      $(this).tab('show')
+    });
+    $.getJSON('http://api.wipmania.com/jsonp?callback=?', function (data) {
+      console.log('Bienvenido Usuario de: ' + data.address.country);
+      $("#pais").html(data.address.country);
+    });
+
+    $('#pills-home-tab1').click(function(){
+      console.log("hola 1");
+        $('#section3').css( 'background-image', 'url("img/img1.jpg")');
+    });
+    $('#pills-profile-tab2').click(function(){
+      console.log("hola 2");
+        $('#section3').css( 'background-image', 'url("img/img2.jpg")');
+    });
+    $('#pills-contact-tab3').click(function(){
+      console.log("hola 2");
+        $('#section3').css( 'background-image', 'url("img/gr_1.jpg")');
+    });
+
+
+  </script>
+</html>

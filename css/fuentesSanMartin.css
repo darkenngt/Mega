@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'TituloSanMartin';
+  src: url('../fonts/sm/AvenirNextLTPro-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: 'TituloSanMartinBold';
+  src: url('../fonts/sm/AvenirNextLTPro-Demi.otf') format("opentype");
+}
+@font-face {
+  font-family: 'cuerpoSanMartin';
+  src: url('../fonts/sm/Montserrat-Regular.ttf') format("truetype");
+}
+
+.cuerpoSanMartin{
+  font-family: "cuerpoSanMartin";
+}
+.tituloSanMartin{
+  font-family: "TituloSanMartin";
+}
+.titulosanMartinBold{
+  font-family: "TituloSanMartinBold";
+}
