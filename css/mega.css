@@ -17,6 +17,10 @@ body {
     height: 800px;
     width: 100%;
     }
+ .tamano {
+    height: 950px;
+    width: 100%;
+ }
 
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
